@@ -1,0 +1,12 @@
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+
+# Agent runtime data: scratch workspaces, saved conversations, harness state
+workspace/
+session.json
+*.session.json
+.harness/
